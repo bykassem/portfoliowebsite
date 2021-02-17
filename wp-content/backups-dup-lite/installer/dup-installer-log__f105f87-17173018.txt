@@ -1,0 +1,475 @@
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-1 START @ 06:17:29
+* VERSION: 1.3.40.1
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ CURRENT SERVER                         |ORIGINAL SERVER
+PHP VERSION_________: 7.4.14                                |7.4.12
+OS__________________: Linux                                 |Darwin
+CREATED_____________: 2021-02-17 17:30:18
+WP VERSION__________: 5.6.1
+DUP VERSION_________: 1.3.40.1
+DB__________________: 5.7.29
+DB TABLES___________: 13
+DB ROWS_____________: 364
+DB FILE SIZE________: 1.91MB
+********************************************************************************
+SERVER INFO
+PHP_________________: 7.4.12 | SAPI: apache2handler
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+SERVER______________: Apache/2.4.46 (Unix) OpenSSL/1.0.2u PHP/7.4.12 mod_wsgi/3.5 Python/2.7.13 mod_fastcgi/mod_fastcgi-SNAP-0910052141 mod_perl/2.0.11 Perl/v5.30.1
+DOC ROOT____________: "/Applications/MAMP/htdocs/bykassem.com"
+DOC ROOT 755________: true
+LOG FILE 644________: true
+REQUEST URL_________: "http://localhost/bykassem.com/dup-installer/main.installer.php"
+********************************************************************************
+USER INPUTS
+ARCHIVE ENGINE______: "shellexec_unzip"
+SET DIR PERMS_______: 1
+DIR PERMS VALUE_____: 1363
+SET FILE PERMS______: 1
+FILE PERMS VALUE____: 1204
+SAFE MODE___________: "0"
+LOGGING_____________: "1"
+CONFIG MODE_________: "NEW"
+FILE TIME___________: "current"
+********************************************************************************
+
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "/Applications/MAMP/htdocs/bykassem.com/20210217_kassemdesign_[HASH]_20210217173018_archive.zip"
+SIZE________________: 62.11MB
+
+PRE-EXTRACT-CHECKS
+- PASS: Apache '.htaccess' not found - no backup needed.
+- PASS: Microsoft IIS 'web.config' not found - no backup needed.
+- PASS: WordFence '.user.ini' not found - no backup needed.
+
+
+START ZIP FILE EXTRACTION SHELLEXEC >>> 
+<<< Shell-Exec Unzip Complete.
+--------------------------------------
+POST-EXTACT-CHECKS
+--------------------------------------
+PERMISSION UPDATES:
+    -DIRS:  '755'
+    -FILES: '644'
+
+STEP-1 COMPLETE @ 06:17:33 - RUNTIME: 3.7989 sec.
+
+
+
+********************************************************************************
+* DUPLICATOR-LITE INSTALL-LOG
+* STEP-2 START @ 06:17:47
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+NON-BREAKING SPACES_: false
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8"
+COLLATE_____________: "utf8_general_ci"
+COLLATE FB__________: false
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 5.7.32 -- Build Server: 5.7.29
+FILE SIZE:	dup-database__[HASH].sql (762.62KB)
+TIMEOUT:	5000
+MAXPACK:	4194304
+SQLMODE:	ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+NEW SQL FILE:	[/Applications/MAMP/htdocs/bykassem.com/dup-installer/dup-installer-data__[HASH].sql]
+COLLATE FB:	Off
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+ERRORS FOUND:	0
+DROPPED TABLES:	0
+RENAMED TABLES:	0
+QUERIES RAN:	125
+
+wp_av3hv2_commentmeta: (0)
+wp_av3hv2_comments: (1)
+wp_av3hv2_duplicator_packages: (0)
+wp_av3hv2_links: (0)
+wp_av3hv2_options: (151)
+wp_av3hv2_postmeta: (104)
+wp_av3hv2_posts: (63)
+wp_av3hv2_term_relationships: (2)
+wp_av3hv2_term_taxonomy: (2)
+wp_av3hv2_termmeta: (0)
+wp_av3hv2_terms: (2)
+wp_av3hv2_usermeta: (26)
+wp_av3hv2_users: (1)
+Removed '49' cache/transient rows
+
+INSERT DATA RUNTIME: 0.3944 sec.
+STEP-2 COMPLETE @ 06:17:48 - RUNTIME: 0.3983 sec.
+
+====================================
+SET SEARCH AND REPLACE LIST
+====================================
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 06:17:52
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+blogname______________: "Kassem Design"
+postguid______________: false
+fullsearch____________: false
+path_old______________: "/home/hhftp2/bykassem.com"
+path_new______________: "/Applications/MAMP/htdocs/bykassem.com"
+siteurl_______________: "http://localhost:8888/bykassem.com"
+url_old_______________: "https://www.bykassem.com"
+url_new_______________: "http://localhost:8888/bykassem.com"
+maxSerializeStrlen____: 4000000
+replaceMail___________: false
+dbcharset_____________: "utf8"
+dbcollate_____________: "utf8_general_ci"
+wp_mail_______________: ""
+wp_nickname___________: ""
+wp_first_name_________: ""
+wp_last_name__________: ""
+ssl_admin_____________: false
+cache_wp______________: false
+cache_path____________: false
+exe_safe_mode_________: false
+config_mode___________: "NEW"
+********************************************************************************
+
+
+====================================
+RUN SEARCH AND REPLACE
+====================================
+
+EVALUATE TABLE: "wp_av3hv2_commentmeta"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_av3hv2_comments"______________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/hhftp2/bykassem.com" =======================> "/Applications/MAMP/htdocs/bykassem.com"
+	SEARCH  2:"\/home\/hhftp2\/bykassem.com" ====================> "\/Applications\/MAMP\/htdocs\/bykassem.com"
+	SEARCH  3:"%2Fhome%2Fhhftp2%2Fbykassem.com" =================> "%2FApplications%2FMAMP%2Fhtdocs%2Fbykassem.com"
+	SEARCH  4:"\home\hhftp2\bykassem.com" =======================> "/Applications/MAMP/htdocs/bykassem.com"
+	SEARCH  5:"\\home\\hhftp2\\bykassem.com" ====================> "\/Applications\/MAMP\/htdocs\/bykassem.com"
+	SEARCH  6:"%5Chome%5Chhftp2%5Cbykassem.com" =================> "%2FApplications%2FMAMP%2Fhtdocs%2Fbykassem.com"
+	SEARCH  7:"//www.bykassem.com" ==============================> "//localhost:8888/bykassem.com"
+	SEARCH  8:"\/\/www.bykassem.com" ============================> "\/\/localhost:8888\/bykassem.com"
+	SEARCH  9:"%2F%2Fwww.bykassem.com" ==========================> "%2F%2Flocalhost%3A8888%2Fbykassem.com"
+	SEARCH 10:"//bykassem.com" ==================================> "//localhost:8888/bykassem.com"
+	SEARCH 11:"\/\/bykassem.com" ================================> "\/\/localhost:8888\/bykassem.com"
+	SEARCH 12:"%2F%2Fbykassem.com" ==============================> "%2F%2Flocalhost%3A8888%2Fbykassem.com"
+	SEARCH 13:"https://localhost:8888/bykassem.com" =============> "http://localhost:8888/bykassem.com"
+	SEARCH 14:"https:\/\/localhost:8888\/bykassem.com" ==========> "http:\/\/localhost:8888\/bykassem.com"
+	SEARCH 15:"https%3A%2F%2Flocalhost%3A8888%2Fbykassem.com" ===> "http%3A%2F%2Flocalhost%3A8888%2Fbykassem.com"
+	SEARCH 16:"$proto . '://' . $_SERVER['HTTP_HOST']" ==========> "//localhost:8888/bykassem.com"
+	SEARCH 17:"$proto . ':\/\/' . $_SERVER['HTTP_HOST']" ========> "\/\/localhost:8888\/bykassem.com"
+	SEARCH 18:"%24proto+.+%27%3A%2F%2F%27+.+%24_SERVER%5B%27HTTP_HOST%27%5D" => "%2F%2Flocalhost%3A8888%2Fbykassem.com"
+	SEARCH 19:"https://localhost:8888/bykassem.com" =============> "http://localhost:8888/bykassem.com"
+	SEARCH 20:"https:\/\/localhost:8888\/bykassem.com" ==========> "http:\/\/localhost:8888\/bykassem.com"
+	SEARCH 21:"https%3A%2F%2Flocalhost%3A8888%2Fbykassem.com" ===> "http%3A%2F%2Flocalhost%3A8888%2Fbykassem.com"
+
+EVALUATE TABLE: "wp_av3hv2_duplicator_packages"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_av3hv2_links"_________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_av3hv2_options"_______________________________[ROWS:   151][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/hhftp2/bykassem.com" =======================> "/Applications/MAMP/htdocs/bykassem.com"
+	SEARCH  2:"\/home\/hhftp2\/bykassem.com" ====================> "\/Applications\/MAMP\/htdocs\/bykassem.com"
+	SEARCH  3:"%2Fhome%2Fhhftp2%2Fbykassem.com" =================> "%2FApplications%2FMAMP%2Fhtdocs%2Fbykassem.com"
+	SEARCH  4:"\home\hhftp2\bykassem.com" =======================> "/Applications/MAMP/htdocs/bykassem.com"
+	SEARCH  5:"\\home\\hhftp2\\bykassem.com" ====================> "\/Applications\/MAMP\/htdocs\/bykassem.com"
+	SEARCH  6:"%5Chome%5Chhftp2%5Cbykassem.com" =================> "%2FApplications%2FMAMP%2Fhtdocs%2Fbykassem.com"
+	SEARCH  7:"//www.bykassem.com" ==============================> "//localhost:8888/bykassem.com"
+	SEARCH  8:"\/\/www.bykassem.com" ============================> "\/\/localhost:8888\/bykassem.com"
+	SEARCH  9:"%2F%2Fwww.bykassem.com" ==========================> "%2F%2Flocalhost%3A8888%2Fbykassem.com"
+	SEARCH 10:"//bykassem.com" ==================================> "//localhost:8888/bykassem.com"
+	SEARCH 11:"\/\/bykassem.com" ================================> "\/\/localhost:8888\/bykassem.com"
+	SEARCH 12:"%2F%2Fbykassem.com" ==============================> "%2F%2Flocalhost%3A8888%2Fbykassem.com"
+	SEARCH 13:"https://localhost:8888/bykassem.com" =============> "http://localhost:8888/bykassem.com"
+	SEARCH 14:"https:\/\/localhost:8888\/bykassem.com" ==========> "http:\/\/localhost:8888\/bykassem.com"
+	SEARCH 15:"https%3A%2F%2Flocalhost%3A8888%2Fbykassem.com" ===> "http%3A%2F%2Flocalhost%3A8888%2Fbykassem.com"
+	SEARCH 16:"$proto . '://' . $_SERVER['HTTP_HOST']" ==========> "//localhost:8888/bykassem.com"
+	SEARCH 17:"$proto . ':\/\/' . $_SERVER['HTTP_HOST']" ========> "\/\/localhost:8888\/bykassem.com"
+	SEARCH 18:"%24proto+.+%27%3A%2F%2F%27+.+%24_SERVER%5B%27HTTP_HOST%27%5D" => "%2F%2Flocalhost%3A8888%2Fbykassem.com"
+	SEARCH 19:"https://localhost:8888/bykassem.com" =============> "http://localhost:8888/bykassem.com"
+	SEARCH 20:"https:\/\/localhost:8888\/bykassem.com" ==========> "http:\/\/localhost:8888\/bykassem.com"
+	SEARCH 21:"https%3A%2F%2Flocalhost%3A8888%2Fbykassem.com" ===> "http%3A%2F%2Flocalhost%3A8888%2Fbykassem.com"
+
+EVALUATE TABLE: "wp_av3hv2_postmeta"______________________________[ROWS:   104][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/hhftp2/bykassem.com" =======================> "/Applications/MAMP/htdocs/bykassem.com"
+	SEARCH  2:"\/home\/hhftp2\/bykassem.com" ====================> "\/Applications\/MAMP\/htdocs\/bykassem.com"
+	SEARCH  3:"%2Fhome%2Fhhftp2%2Fbykassem.com" =================> "%2FApplications%2FMAMP%2Fhtdocs%2Fbykassem.com"
+	SEARCH  4:"\home\hhftp2\bykassem.com" =======================> "/Applications/MAMP/htdocs/bykassem.com"
+	SEARCH  5:"\\home\\hhftp2\\bykassem.com" ====================> "\/Applications\/MAMP\/htdocs\/bykassem.com"
+	SEARCH  6:"%5Chome%5Chhftp2%5Cbykassem.com" =================> "%2FApplications%2FMAMP%2Fhtdocs%2Fbykassem.com"
+	SEARCH  7:"//www.bykassem.com" ==============================> "//localhost:8888/bykassem.com"
+	SEARCH  8:"\/\/www.bykassem.com" ============================> "\/\/localhost:8888\/bykassem.com"
+	SEARCH  9:"%2F%2Fwww.bykassem.com" ==========================> "%2F%2Flocalhost%3A8888%2Fbykassem.com"
+	SEARCH 10:"//bykassem.com" ==================================> "//localhost:8888/bykassem.com"
+	SEARCH 11:"\/\/bykassem.com" ================================> "\/\/localhost:8888\/bykassem.com"
+	SEARCH 12:"%2F%2Fbykassem.com" ==============================> "%2F%2Flocalhost%3A8888%2Fbykassem.com"
+	SEARCH 13:"https://localhost:8888/bykassem.com" =============> "http://localhost:8888/bykassem.com"
+	SEARCH 14:"https:\/\/localhost:8888\/bykassem.com" ==========> "http:\/\/localhost:8888\/bykassem.com"
+	SEARCH 15:"https%3A%2F%2Flocalhost%3A8888%2Fbykassem.com" ===> "http%3A%2F%2Flocalhost%3A8888%2Fbykassem.com"
+	SEARCH 16:"$proto . '://' . $_SERVER['HTTP_HOST']" ==========> "//localhost:8888/bykassem.com"
+	SEARCH 17:"$proto . ':\/\/' . $_SERVER['HTTP_HOST']" ========> "\/\/localhost:8888\/bykassem.com"
+	SEARCH 18:"%24proto+.+%27%3A%2F%2F%27+.+%24_SERVER%5B%27HTTP_HOST%27%5D" => "%2F%2Flocalhost%3A8888%2Fbykassem.com"
+	SEARCH 19:"https://localhost:8888/bykassem.com" =============> "http://localhost:8888/bykassem.com"
+	SEARCH 20:"https:\/\/localhost:8888\/bykassem.com" ==========> "http:\/\/localhost:8888\/bykassem.com"
+	SEARCH 21:"https%3A%2F%2Flocalhost%3A8888%2Fbykassem.com" ===> "http%3A%2F%2Flocalhost%3A8888%2Fbykassem.com"
+
+EVALUATE TABLE: "wp_av3hv2_posts"_________________________________[ROWS:    63][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/hhftp2/bykassem.com" =======================> "/Applications/MAMP/htdocs/bykassem.com"
+	SEARCH  2:"\/home\/hhftp2\/bykassem.com" ====================> "\/Applications\/MAMP\/htdocs\/bykassem.com"
+	SEARCH  3:"%2Fhome%2Fhhftp2%2Fbykassem.com" =================> "%2FApplications%2FMAMP%2Fhtdocs%2Fbykassem.com"
+	SEARCH  4:"\home\hhftp2\bykassem.com" =======================> "/Applications/MAMP/htdocs/bykassem.com"
+	SEARCH  5:"\\home\\hhftp2\\bykassem.com" ====================> "\/Applications\/MAMP\/htdocs\/bykassem.com"
+	SEARCH  6:"%5Chome%5Chhftp2%5Cbykassem.com" =================> "%2FApplications%2FMAMP%2Fhtdocs%2Fbykassem.com"
+	SEARCH  7:"//www.bykassem.com" ==============================> "//localhost:8888/bykassem.com"
+	SEARCH  8:"\/\/www.bykassem.com" ============================> "\/\/localhost:8888\/bykassem.com"
+	SEARCH  9:"%2F%2Fwww.bykassem.com" ==========================> "%2F%2Flocalhost%3A8888%2Fbykassem.com"
+	SEARCH 10:"//bykassem.com" ==================================> "//localhost:8888/bykassem.com"
+	SEARCH 11:"\/\/bykassem.com" ================================> "\/\/localhost:8888\/bykassem.com"
+	SEARCH 12:"%2F%2Fbykassem.com" ==============================> "%2F%2Flocalhost%3A8888%2Fbykassem.com"
+	SEARCH 13:"https://localhost:8888/bykassem.com" =============> "http://localhost:8888/bykassem.com"
+	SEARCH 14:"https:\/\/localhost:8888\/bykassem.com" ==========> "http:\/\/localhost:8888\/bykassem.com"
+	SEARCH 15:"https%3A%2F%2Flocalhost%3A8888%2Fbykassem.com" ===> "http%3A%2F%2Flocalhost%3A8888%2Fbykassem.com"
+	SEARCH 16:"$proto . '://' . $_SERVER['HTTP_HOST']" ==========> "//localhost:8888/bykassem.com"
+	SEARCH 17:"$proto . ':\/\/' . $_SERVER['HTTP_HOST']" ========> "\/\/localhost:8888\/bykassem.com"
+	SEARCH 18:"%24proto+.+%27%3A%2F%2F%27+.+%24_SERVER%5B%27HTTP_HOST%27%5D" => "%2F%2Flocalhost%3A8888%2Fbykassem.com"
+	SEARCH 19:"https://localhost:8888/bykassem.com" =============> "http://localhost:8888/bykassem.com"
+	SEARCH 20:"https:\/\/localhost:8888\/bykassem.com" ==========> "http:\/\/localhost:8888\/bykassem.com"
+	SEARCH 21:"https%3A%2F%2Flocalhost%3A8888%2Fbykassem.com" ===> "http%3A%2F%2Flocalhost%3A8888%2Fbykassem.com"
+
+EVALUATE TABLE: "wp_av3hv2_term_relationships"____________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/hhftp2/bykassem.com" =======================> "/Applications/MAMP/htdocs/bykassem.com"
+	SEARCH  2:"\/home\/hhftp2\/bykassem.com" ====================> "\/Applications\/MAMP\/htdocs\/bykassem.com"
+	SEARCH  3:"%2Fhome%2Fhhftp2%2Fbykassem.com" =================> "%2FApplications%2FMAMP%2Fhtdocs%2Fbykassem.com"
+	SEARCH  4:"\home\hhftp2\bykassem.com" =======================> "/Applications/MAMP/htdocs/bykassem.com"
+	SEARCH  5:"\\home\\hhftp2\\bykassem.com" ====================> "\/Applications\/MAMP\/htdocs\/bykassem.com"
+	SEARCH  6:"%5Chome%5Chhftp2%5Cbykassem.com" =================> "%2FApplications%2FMAMP%2Fhtdocs%2Fbykassem.com"
+	SEARCH  7:"//www.bykassem.com" ==============================> "//localhost:8888/bykassem.com"
+	SEARCH  8:"\/\/www.bykassem.com" ============================> "\/\/localhost:8888\/bykassem.com"
+	SEARCH  9:"%2F%2Fwww.bykassem.com" ==========================> "%2F%2Flocalhost%3A8888%2Fbykassem.com"
+	SEARCH 10:"//bykassem.com" ==================================> "//localhost:8888/bykassem.com"
+	SEARCH 11:"\/\/bykassem.com" ================================> "\/\/localhost:8888\/bykassem.com"
+	SEARCH 12:"%2F%2Fbykassem.com" ==============================> "%2F%2Flocalhost%3A8888%2Fbykassem.com"
+	SEARCH 13:"https://localhost:8888/bykassem.com" =============> "http://localhost:8888/bykassem.com"
+	SEARCH 14:"https:\/\/localhost:8888\/bykassem.com" ==========> "http:\/\/localhost:8888\/bykassem.com"
+	SEARCH 15:"https%3A%2F%2Flocalhost%3A8888%2Fbykassem.com" ===> "http%3A%2F%2Flocalhost%3A8888%2Fbykassem.com"
+	SEARCH 16:"$proto . '://' . $_SERVER['HTTP_HOST']" ==========> "//localhost:8888/bykassem.com"
+	SEARCH 17:"$proto . ':\/\/' . $_SERVER['HTTP_HOST']" ========> "\/\/localhost:8888\/bykassem.com"
+	SEARCH 18:"%24proto+.+%27%3A%2F%2F%27+.+%24_SERVER%5B%27HTTP_HOST%27%5D" => "%2F%2Flocalhost%3A8888%2Fbykassem.com"
+	SEARCH 19:"https://localhost:8888/bykassem.com" =============> "http://localhost:8888/bykassem.com"
+	SEARCH 20:"https:\/\/localhost:8888\/bykassem.com" ==========> "http:\/\/localhost:8888\/bykassem.com"
+	SEARCH 21:"https%3A%2F%2Flocalhost%3A8888%2Fbykassem.com" ===> "http%3A%2F%2Flocalhost%3A8888%2Fbykassem.com"
+
+EVALUATE TABLE: "wp_av3hv2_term_taxonomy"_________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/hhftp2/bykassem.com" =======================> "/Applications/MAMP/htdocs/bykassem.com"
+	SEARCH  2:"\/home\/hhftp2\/bykassem.com" ====================> "\/Applications\/MAMP\/htdocs\/bykassem.com"
+	SEARCH  3:"%2Fhome%2Fhhftp2%2Fbykassem.com" =================> "%2FApplications%2FMAMP%2Fhtdocs%2Fbykassem.com"
+	SEARCH  4:"\home\hhftp2\bykassem.com" =======================> "/Applications/MAMP/htdocs/bykassem.com"
+	SEARCH  5:"\\home\\hhftp2\\bykassem.com" ====================> "\/Applications\/MAMP\/htdocs\/bykassem.com"
+	SEARCH  6:"%5Chome%5Chhftp2%5Cbykassem.com" =================> "%2FApplications%2FMAMP%2Fhtdocs%2Fbykassem.com"
+	SEARCH  7:"//www.bykassem.com" ==============================> "//localhost:8888/bykassem.com"
+	SEARCH  8:"\/\/www.bykassem.com" ============================> "\/\/localhost:8888\/bykassem.com"
+	SEARCH  9:"%2F%2Fwww.bykassem.com" ==========================> "%2F%2Flocalhost%3A8888%2Fbykassem.com"
+	SEARCH 10:"//bykassem.com" ==================================> "//localhost:8888/bykassem.com"
+	SEARCH 11:"\/\/bykassem.com" ================================> "\/\/localhost:8888\/bykassem.com"
+	SEARCH 12:"%2F%2Fbykassem.com" ==============================> "%2F%2Flocalhost%3A8888%2Fbykassem.com"
+	SEARCH 13:"https://localhost:8888/bykassem.com" =============> "http://localhost:8888/bykassem.com"
+	SEARCH 14:"https:\/\/localhost:8888\/bykassem.com" ==========> "http:\/\/localhost:8888\/bykassem.com"
+	SEARCH 15:"https%3A%2F%2Flocalhost%3A8888%2Fbykassem.com" ===> "http%3A%2F%2Flocalhost%3A8888%2Fbykassem.com"
+	SEARCH 16:"$proto . '://' . $_SERVER['HTTP_HOST']" ==========> "//localhost:8888/bykassem.com"
+	SEARCH 17:"$proto . ':\/\/' . $_SERVER['HTTP_HOST']" ========> "\/\/localhost:8888\/bykassem.com"
+	SEARCH 18:"%24proto+.+%27%3A%2F%2F%27+.+%24_SERVER%5B%27HTTP_HOST%27%5D" => "%2F%2Flocalhost%3A8888%2Fbykassem.com"
+	SEARCH 19:"https://localhost:8888/bykassem.com" =============> "http://localhost:8888/bykassem.com"
+	SEARCH 20:"https:\/\/localhost:8888\/bykassem.com" ==========> "http:\/\/localhost:8888\/bykassem.com"
+	SEARCH 21:"https%3A%2F%2Flocalhost%3A8888%2Fbykassem.com" ===> "http%3A%2F%2Flocalhost%3A8888%2Fbykassem.com"
+
+EVALUATE TABLE: "wp_av3hv2_termmeta"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_av3hv2_terms"_________________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/hhftp2/bykassem.com" =======================> "/Applications/MAMP/htdocs/bykassem.com"
+	SEARCH  2:"\/home\/hhftp2\/bykassem.com" ====================> "\/Applications\/MAMP\/htdocs\/bykassem.com"
+	SEARCH  3:"%2Fhome%2Fhhftp2%2Fbykassem.com" =================> "%2FApplications%2FMAMP%2Fhtdocs%2Fbykassem.com"
+	SEARCH  4:"\home\hhftp2\bykassem.com" =======================> "/Applications/MAMP/htdocs/bykassem.com"
+	SEARCH  5:"\\home\\hhftp2\\bykassem.com" ====================> "\/Applications\/MAMP\/htdocs\/bykassem.com"
+	SEARCH  6:"%5Chome%5Chhftp2%5Cbykassem.com" =================> "%2FApplications%2FMAMP%2Fhtdocs%2Fbykassem.com"
+	SEARCH  7:"//www.bykassem.com" ==============================> "//localhost:8888/bykassem.com"
+	SEARCH  8:"\/\/www.bykassem.com" ============================> "\/\/localhost:8888\/bykassem.com"
+	SEARCH  9:"%2F%2Fwww.bykassem.com" ==========================> "%2F%2Flocalhost%3A8888%2Fbykassem.com"
+	SEARCH 10:"//bykassem.com" ==================================> "//localhost:8888/bykassem.com"
+	SEARCH 11:"\/\/bykassem.com" ================================> "\/\/localhost:8888\/bykassem.com"
+	SEARCH 12:"%2F%2Fbykassem.com" ==============================> "%2F%2Flocalhost%3A8888%2Fbykassem.com"
+	SEARCH 13:"https://localhost:8888/bykassem.com" =============> "http://localhost:8888/bykassem.com"
+	SEARCH 14:"https:\/\/localhost:8888\/bykassem.com" ==========> "http:\/\/localhost:8888\/bykassem.com"
+	SEARCH 15:"https%3A%2F%2Flocalhost%3A8888%2Fbykassem.com" ===> "http%3A%2F%2Flocalhost%3A8888%2Fbykassem.com"
+	SEARCH 16:"$proto . '://' . $_SERVER['HTTP_HOST']" ==========> "//localhost:8888/bykassem.com"
+	SEARCH 17:"$proto . ':\/\/' . $_SERVER['HTTP_HOST']" ========> "\/\/localhost:8888\/bykassem.com"
+	SEARCH 18:"%24proto+.+%27%3A%2F%2F%27+.+%24_SERVER%5B%27HTTP_HOST%27%5D" => "%2F%2Flocalhost%3A8888%2Fbykassem.com"
+	SEARCH 19:"https://localhost:8888/bykassem.com" =============> "http://localhost:8888/bykassem.com"
+	SEARCH 20:"https:\/\/localhost:8888\/bykassem.com" ==========> "http:\/\/localhost:8888\/bykassem.com"
+	SEARCH 21:"https%3A%2F%2Flocalhost%3A8888%2Fbykassem.com" ===> "http%3A%2F%2Flocalhost%3A8888%2Fbykassem.com"
+
+EVALUATE TABLE: "wp_av3hv2_usermeta"______________________________[ROWS:    26][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/hhftp2/bykassem.com" =======================> "/Applications/MAMP/htdocs/bykassem.com"
+	SEARCH  2:"\/home\/hhftp2\/bykassem.com" ====================> "\/Applications\/MAMP\/htdocs\/bykassem.com"
+	SEARCH  3:"%2Fhome%2Fhhftp2%2Fbykassem.com" =================> "%2FApplications%2FMAMP%2Fhtdocs%2Fbykassem.com"
+	SEARCH  4:"\home\hhftp2\bykassem.com" =======================> "/Applications/MAMP/htdocs/bykassem.com"
+	SEARCH  5:"\\home\\hhftp2\\bykassem.com" ====================> "\/Applications\/MAMP\/htdocs\/bykassem.com"
+	SEARCH  6:"%5Chome%5Chhftp2%5Cbykassem.com" =================> "%2FApplications%2FMAMP%2Fhtdocs%2Fbykassem.com"
+	SEARCH  7:"//www.bykassem.com" ==============================> "//localhost:8888/bykassem.com"
+	SEARCH  8:"\/\/www.bykassem.com" ============================> "\/\/localhost:8888\/bykassem.com"
+	SEARCH  9:"%2F%2Fwww.bykassem.com" ==========================> "%2F%2Flocalhost%3A8888%2Fbykassem.com"
+	SEARCH 10:"//bykassem.com" ==================================> "//localhost:8888/bykassem.com"
+	SEARCH 11:"\/\/bykassem.com" ================================> "\/\/localhost:8888\/bykassem.com"
+	SEARCH 12:"%2F%2Fbykassem.com" ==============================> "%2F%2Flocalhost%3A8888%2Fbykassem.com"
+	SEARCH 13:"https://localhost:8888/bykassem.com" =============> "http://localhost:8888/bykassem.com"
+	SEARCH 14:"https:\/\/localhost:8888\/bykassem.com" ==========> "http:\/\/localhost:8888\/bykassem.com"
+	SEARCH 15:"https%3A%2F%2Flocalhost%3A8888%2Fbykassem.com" ===> "http%3A%2F%2Flocalhost%3A8888%2Fbykassem.com"
+	SEARCH 16:"$proto . '://' . $_SERVER['HTTP_HOST']" ==========> "//localhost:8888/bykassem.com"
+	SEARCH 17:"$proto . ':\/\/' . $_SERVER['HTTP_HOST']" ========> "\/\/localhost:8888\/bykassem.com"
+	SEARCH 18:"%24proto+.+%27%3A%2F%2F%27+.+%24_SERVER%5B%27HTTP_HOST%27%5D" => "%2F%2Flocalhost%3A8888%2Fbykassem.com"
+	SEARCH 19:"https://localhost:8888/bykassem.com" =============> "http://localhost:8888/bykassem.com"
+	SEARCH 20:"https:\/\/localhost:8888\/bykassem.com" ==========> "http:\/\/localhost:8888\/bykassem.com"
+	SEARCH 21:"https%3A%2F%2Flocalhost%3A8888%2Fbykassem.com" ===> "http%3A%2F%2Flocalhost%3A8888%2Fbykassem.com"
+
+EVALUATE TABLE: "wp_av3hv2_users"_________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/hhftp2/bykassem.com" =======================> "/Applications/MAMP/htdocs/bykassem.com"
+	SEARCH  2:"\/home\/hhftp2\/bykassem.com" ====================> "\/Applications\/MAMP\/htdocs\/bykassem.com"
+	SEARCH  3:"%2Fhome%2Fhhftp2%2Fbykassem.com" =================> "%2FApplications%2FMAMP%2Fhtdocs%2Fbykassem.com"
+	SEARCH  4:"\home\hhftp2\bykassem.com" =======================> "/Applications/MAMP/htdocs/bykassem.com"
+	SEARCH  5:"\\home\\hhftp2\\bykassem.com" ====================> "\/Applications\/MAMP\/htdocs\/bykassem.com"
+	SEARCH  6:"%5Chome%5Chhftp2%5Cbykassem.com" =================> "%2FApplications%2FMAMP%2Fhtdocs%2Fbykassem.com"
+	SEARCH  7:"//www.bykassem.com" ==============================> "//localhost:8888/bykassem.com"
+	SEARCH  8:"\/\/www.bykassem.com" ============================> "\/\/localhost:8888\/bykassem.com"
+	SEARCH  9:"%2F%2Fwww.bykassem.com" ==========================> "%2F%2Flocalhost%3A8888%2Fbykassem.com"
+	SEARCH 10:"//bykassem.com" ==================================> "//localhost:8888/bykassem.com"
+	SEARCH 11:"\/\/bykassem.com" ================================> "\/\/localhost:8888\/bykassem.com"
+	SEARCH 12:"%2F%2Fbykassem.com" ==============================> "%2F%2Flocalhost%3A8888%2Fbykassem.com"
+	SEARCH 13:"https://localhost:8888/bykassem.com" =============> "http://localhost:8888/bykassem.com"
+	SEARCH 14:"https:\/\/localhost:8888\/bykassem.com" ==========> "http:\/\/localhost:8888\/bykassem.com"
+	SEARCH 15:"https%3A%2F%2Flocalhost%3A8888%2Fbykassem.com" ===> "http%3A%2F%2Flocalhost%3A8888%2Fbykassem.com"
+	SEARCH 16:"$proto . '://' . $_SERVER['HTTP_HOST']" ==========> "//localhost:8888/bykassem.com"
+	SEARCH 17:"$proto . ':\/\/' . $_SERVER['HTTP_HOST']" ========> "\/\/localhost:8888\/bykassem.com"
+	SEARCH 18:"%24proto+.+%27%3A%2F%2F%27+.+%24_SERVER%5B%27HTTP_HOST%27%5D" => "%2F%2Flocalhost%3A8888%2Fbykassem.com"
+	SEARCH 19:"https://localhost:8888/bykassem.com" =============> "http://localhost:8888/bykassem.com"
+	SEARCH 20:"https:\/\/localhost:8888\/bykassem.com" ==========> "http:\/\/localhost:8888\/bykassem.com"
+	SEARCH 21:"https%3A%2F%2Flocalhost%3A8888%2Fbykassem.com" ===> "http%3A%2F%2Flocalhost%3A8888%2Fbykassem.com"
+--------------------------------------
+SCANNED:	Tables:13 	|	 Rows:352 	|	 Cells:2624 
+UPDATED:	Tables:3 	|	 Rows:67 	|	 Cells:75 
+ERRORS:		0 
+RUNTIME:	0.054100 sec
+
+====================================
+REMOVE LICENSE KEY
+====================================
+
+====================================
+CREATE NEW ADMIN USER
+====================================
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE WP_HOME "http://localhost:8888/bykassem.com"
+	UPDATE WP_SITEURL "http://localhost:8888/bykassem.com"
+	UPDATE DB_NAME ""bykassem_com""
+	UPDATE DB_USER ""root""
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	REMOVE WPCACHEHOME
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE MODE: "NEW"
+====================================
+- PASS: Successfully created a new .htaccess file.
+- PASS: Existing Apache '.htaccess__[HASH]' was removed
+
+====================================
+GENERAL UPDATES & CLEANUP
+====================================
+
+====================================
+DEACTIVATE PLUGINS CHECK
+====================================
+Deactivated plugins list here: Array
+(
+    [0] => really-simple-ssl/rlrsssl-really-simple-ssl.php
+    [1] => simple-google-recaptcha/simple-google-recaptcha.php
+    [2] => js_composer/js_composer.php
+)
+
+
+====================================
+NOTICES TEST
+====================================
+WP-CONFIG NOTICE: The wp-config.php has following values set [WP_SITEURL, WP_HOME].  
+Please validate these values are correct by opening the file and checking the values.
+See the codex link for more details: https://codex.wordpress.org/Editing_wp-config.php
+
+====================================
+CLEANUP TMP FILES
+====================================
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 06:17:52 - RUNTIME: 0.1055 sec. 
+
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[INFO] Info
+	SECTIONS: general
+	LONG MSG:             The following is a list of notices that may need to be fixed in order to finalize your setup. These values should only be investigated if you're running into
+            issues with your site. For more details see the <a href="https://codex.wordpress.org/Editing_wp-config.php" target="_blank">WordPress Codex</a>.
+
+-----------------------
+[INFO] No errors in database
+	SECTIONS: database
+
+-----------------------
+[INFO] No search and replace data errors
+	SECTIONS: search_replace
+
+-----------------------
+[INFO] No files extraction errors
+	SECTIONS: files
+
+-----------------------
+[NOTICE] wp-config notice
+	SECTIONS: general
+	LONG MSG: WP-CONFIG NOTICE: The wp-config.php has following values set [WP_SITEURL, WP_HOME].  
+Please validate these values are correct by opening the file and checking the values.
+See the codex link for more details: https://codex.wordpress.org/Editing_wp-config.php
+
+====================================
