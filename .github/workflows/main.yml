@@ -14,4 +14,4 @@ jobs:
         REMOTE_HOST: ${{ secrets.SSH_HOST }}
         REMOTE_USER: ${{ secrets.SSH_USERNAME }}
         TARGET: "/home/hhftp2/bykassem.com/"
-        # ARGS: "-rltgoDzvO --delete"
+        ARGS: "-avzr --delete"
