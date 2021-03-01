@@ -15,4 +15,5 @@ jobs:
         SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
         REMOTE_HOST: ps495228.dreamhostps.com
         REMOTE_USER: hhftp2
-        TARGET: /home/hhftp2/bykassem2.com/
+        TARGET: /home/hhftp2/bykassem.com/
+        ARGS: -avzr --delete
