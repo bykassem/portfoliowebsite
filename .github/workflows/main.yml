@@ -13,7 +13,7 @@ jobs:
     - name: Sync files
       uses: SamKirkland/FTP-Deploy-Action@4.0.0
       with:
-        server: bykassem.com
+        server: 173.236.139.104
         port: 22
         protocol: ftps
         server-dir: /home/hhftp2/bykassem.com/
