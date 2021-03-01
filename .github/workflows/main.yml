@@ -3,15 +3,17 @@ name: Automatic Sync with Dreamhost
 on: [push]
     # branches: [main]
 jobs:
-  build:
+  deploy_job:
     runs-on: ubuntu-latest
-    timeout-minutes: 10 # time out after 15 minutes (default is 360 minutes)
     steps:
+      - name: Checkout
+        uses: actions/checkout@v2
       - name: ssh deploy
-        uses: easingthemes/ssh-deploy@v2.1.5
-        env:
-          SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
-          REMOTE_HOST: ${{ secrets.SSH_HOST }}
-          REMOTE_USER: ${{ secrets.SSH_USERNAME }}
-          TARGET: "/home/hhftp2/bykassem.com/"
-          ARGS: "-avzr --delete"
+        uses: wlixcc/SFTP-Deploy-Action@v1.0
+        with:
+          username: ${{ secrets.SSH_USERNAME }}
+          server: ${{ secrets.SSH_HOST }}
+          ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }}
+          local_path: './*'
+          remote_path: '/home/hhftp2/bykassem.com/'
+          args: '-o ConnectTimeout=5'
