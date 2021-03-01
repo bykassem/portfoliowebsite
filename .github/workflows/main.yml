@@ -13,9 +13,9 @@ jobs:
     - name: Sync files
       uses: SamKirkland/FTP-Deploy-Action@4.0.0
       with:
-        server: ftp.bykassem.com
+        server: bykassem.com
         port: 22
-        protocol: ftps
+        protocol: sftp
         server-dir: /home/hhftp2/bykassem.com/
         username: ${{ secrets.ftp_username }}
         password: ${{ secrets.ftp_password }}
