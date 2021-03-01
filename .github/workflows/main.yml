@@ -15,4 +15,3 @@ jobs:
         REMOTE_USER: ${{ secrets.SSH_USERNAME }}
         TARGET: "/home/hhftp2/bykassem.com/"
         ARGS: "-avzr --delete"
-        SOURCE: "/home/runner/work/portfoliowebsite/"
