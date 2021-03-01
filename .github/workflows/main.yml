@@ -1,9 +1,11 @@
 name: Automatic Sync with Dreamhost
 
-on: [push]
+on:
+  push:
+    branches: [main]
 
 jobs:
- build:
+  build:
     runs-on: ubuntu-latest
     timeout-minutes: 10 # time out after 15 minutes (default is 360 minutes)
     steps:
