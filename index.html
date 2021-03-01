@@ -19,19 +19,13 @@
   <!-- Custom styles for this template -->
   <link href="css/product.min.css" rel="stylesheet">
 
-  <script src="https://unpkg.com/react@17/umd/react.development.js"></script>
-  <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
-
-  <!-- Don't use this in production: -->
-  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
-
 </head>
 
-<body id="main" class="landing-page">
+<body class="landing-page">
 
 
-  <header class="site-header kd-container py-3">
-    <nav class="d-flex">
+  <header id="top-header" class="site-header kd-container py-3">
+    <!-- <nav class="d-flex">
       <div class="d-flex">
         <a class="me-3 kd-button kd-work-link" href="/#work">Work</a>
         <a class="me-3 kd-button " href="/about.html">About</a>
@@ -40,7 +34,7 @@
       <a class="py-2 me-3 " href="/">
         <h1 class="site-title kd-h4">Digital Product Design<span>by Kassem</span></h1>
       </a>
-    </nav>
+    </nav> -->
   </header>
 
   <main>
@@ -323,25 +317,17 @@
 
   </main>
 
-  <footer class="kd-container">
-    <div class="kd-content d-sm-flex justify-content-between py-3">
-      <div class="">
-        <small class="d-block mb-3 text-muted">&copy; 2021 Kassem Desing inc. All Rights Reserved</small>
-      </div>
-      <div class="">
-        <ul class="list-unstyled text-small text-sm-end">
-          <li><a class="link-secondary" href="privacy-policy.html">Privacy Policy</a></li>
-        </ul>
-      </div>
-    </div>
-  </footer>
-
+  <footer id="kd-footer" class="kd-container"> </footer>
 
   <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
 
 
+  <script src="https://unpkg.com/react@17/umd/react.development.js"></script>
+  <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+
   <!-- Load our React component. -->
-  <script src="top-nav.js"></script>
+  <script src="header.js"></script>
+  <script src="footer.js"></script>
 
 </body>
 
