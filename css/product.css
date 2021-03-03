@@ -524,6 +524,7 @@ nav {
 .case-study-page img {
   -webkit-box-shadow: -10px 16px 17px 4px rgba(46, 10, 57, 0.08);
           box-shadow: -10px 16px 17px 4px rgba(46, 10, 57, 0.08);
+  margin-bottom: 40px;
 }
 
 /*
