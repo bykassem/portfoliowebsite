@@ -1,28 +1,32 @@
 var footerNav = React.createElement(
         "div",
-        { className: "kd-content d-sm-flex justify-content-between py-3" },
+        { className: "kd-container" },
         React.createElement(
                 "div",
-                { className: "" },
+                { className: "kd-content d-sm-flex justify-content-between py-3" },
                 React.createElement(
-                        "small",
-                        { className: "d-block mb-3 text-muted" },
-                        "\xA9 2021 Kassem Desing inc. All Rights Reserved"
-                )
-        ),
-        React.createElement(
-                "div",
-                { className: "" },
-                React.createElement(
-                        "ul",
-                        { className: "list-unstyled text-small text-sm-end" },
+                        "div",
+                        { className: "" },
                         React.createElement(
-                                "li",
-                                null,
+                                "small",
+                                { className: "d-block mb-3 text-muted" },
+                                "\xA9 2021 Kassem Desing inc. All Rights Reserved"
+                        )
+                ),
+                React.createElement(
+                        "div",
+                        { className: "" },
+                        React.createElement(
+                                "ul",
+                                { className: "list-unstyled text-small text-sm-end" },
                                 React.createElement(
-                                        "a",
-                                        { className: "link-secondary", href: "privacy-policy.html" },
-                                        "Privacy Policy"
+                                        "li",
+                                        null,
+                                        React.createElement(
+                                                "a",
+                                                { className: "link-secondary", href: "privacy-policy.html" },
+                                                "Privacy Policy"
+                                        )
                                 )
                         )
                 )

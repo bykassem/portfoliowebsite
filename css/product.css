@@ -150,6 +150,28 @@ nav {
           box-shadow: none;
 }
 
+.kd-button-back-container {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 30px;
+  margin-bottom: -80px;
+}
+
+.kd-button-back {
+  background-color: #f1f1fd;
+  height: 50px;
+  width: 50px;
+  margin-left: 30px;
+  margin-top: 30px;
+  border-radius: 100%;
+  border: 2px solid white;
+}
+
+.kd-button-back svg {
+  width: 90%;
+  height: 90%;
+}
+
 /*
 *
 */
@@ -489,6 +511,19 @@ nav {
   margin-right: 0.75vw;
   width: 28px;
   height: 28px;
+}
+
+/*
+*
+* Case Study page
+*/
+.case-study-page main {
+  margin-top: 40px;
+}
+
+.case-study-page img {
+  -webkit-box-shadow: -10px 16px 17px 4px rgba(46, 10, 57, 0.08);
+          box-shadow: -10px 16px 17px 4px rgba(46, 10, 57, 0.08);
 }
 
 /*
