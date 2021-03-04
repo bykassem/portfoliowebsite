@@ -264,6 +264,29 @@ nav {
           transform: rotate(45deg);
 }
 
+.kd-client-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+}
+
+.kd-client-list > * {
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 20%;
+  max-height: 400px;
+}
+
+@media (max-width: 576px) {
+  .kd-client-list > * {
+    width: 50%;
+    max-height: 80px;
+  }
+}
+
 .flex-equal > * {
   -webkit-box-flex: 1;
       -ms-flex: 1;
@@ -293,21 +316,18 @@ nav {
 * Landing page
 */
 .landing-page .site-title,
-.landing-page .kd-work-link {
-  display: none;
-}
-
 .landing-page .hero {
   overflow-x: hidden;
   overflow-y: visible;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 13vw 3vw 4vw 1vw 50vw 8vw 14vw 7vw;
-      grid-template-columns: 13vw 3vw 4vw 1vw 50vw 8vw 14vw 7vw;
+  -ms-grid-columns: 13vw 3vw 4vw 30vw 21vw 8vw 14vw 7vw;
+      grid-template-columns: 13vw 3vw 4vw 30vw 21vw 8vw 14vw 7vw;
   -ms-grid-rows: 7vh 14vh 4vh 7vh 14vh 7vh 8vh 7vh 1vh;
       grid-template-rows: 7vh 14vh 4vh 7vh 14vh 7vh 8vh 7vh 1vh;
 }
 
+.landing-page .site-title .hero-title,
 .landing-page .hero .hero-title {
   -ms-grid-column: 2;
   -ms-grid-column-span: 5;
@@ -317,6 +337,7 @@ nav {
   grid-row: 3 / 6;
 }
 
+.landing-page .site-title .kd-box-yellow,
 .landing-page .hero .kd-box-yellow {
   -ms-grid-column: 1;
   -ms-grid-column-span: 2;
@@ -326,6 +347,7 @@ nav {
   grid-row: 4 / 7;
 }
 
+.landing-page .site-title .kd-box-green,
 .landing-page .hero .kd-box-green {
   width: 100%;
   height: 100%;
@@ -337,6 +359,7 @@ nav {
   grid-row: 5 / 8;
 }
 
+.landing-page .site-title .kd-shape-triangle,
 .landing-page .hero .kd-shape-triangle {
   grid-column-end: 2;
   -ms-grid-row: 1;
@@ -346,6 +369,7 @@ nav {
       justify-self: end;
 }
 
+.landing-page .site-title .kd-shape-cube,
 .landing-page .hero .kd-shape-cube {
   height: 100%;
   -ms-grid-column: 8;
@@ -356,6 +380,7 @@ nav {
   grid-row: 2 / 4;
 }
 
+.landing-page .site-title .kd-arrow-1,
 .landing-page .hero .kd-arrow-1 {
   -ms-grid-column: 5;
   -ms-grid-column-span: 2;
@@ -365,9 +390,10 @@ nav {
   grid-row: 7 / 9;
   width: 100%;
   margin-top: 20px;
-  margin-left: 3vw;
+  margin-left: 0vw;
 }
 
+.landing-page .site-title .kd-arrow-2,
 .landing-page .hero .kd-arrow-2 {
   border-width: 0px 0 2px 2px;
   border-radius: 0 0 0 100px;
@@ -382,6 +408,7 @@ nav {
   width: calc(98px + 3rem);
 }
 
+.landing-page .site-title .kd-arrow-2::after,
 .landing-page .hero .kd-arrow-2::after {
   bottom: -8px;
   left: auto;
@@ -394,6 +421,7 @@ nav {
   right: 0px;
 }
 
+.landing-page .site-title .kd-button-pink,
 .landing-page .hero .kd-button-pink {
   -ms-grid-column-align: start;
       justify-self: start;
@@ -407,21 +435,30 @@ nav {
 }
 
 .case-study {
+  min-height: 60vh;
   -webkit-box-align: stretch;
       -ms-flex-align: stretch;
           align-items: stretch;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-x: 50vw;
+  background-position-y: bottom;
 }
 
-.case-study > * {
+.case-study .kd-container > div {
   width: 50%;
 }
 
-.case-study > * .study-image {
-  width: 100%;
-  -o-object-fit: contain;
-     object-fit: contain;
-  -o-object-position: bottom right;
-     object-position: bottom right;
+.case-study.revup {
+  background-image: url("../assets/images/Kassem_Revup_Thumb.png");
+}
+
+.case-study.founded {
+  background-image: url("../assets/images/Kassem_Founded_Thumb.png");
+}
+
+.case-study.various {
+  background-image: url("../assets/images/Kassem_Various_Thumb.png");
 }
 
 @media (max-width: 768px) {
@@ -442,14 +479,25 @@ nav {
   .landing-page .hero .kd-arrow-2 {
     width: calc(102px + 1rem);
   }
-  .case-study > * {
+  .landing-page .kd-container > div {
     width: 100%;
+  }
+  .landing-page .case-study {
+    background-position: bottom right;
+    padding-bottom: 80vw;
+    text-align: center;
+  }
+  .landing-page .case-study span {
+    margin: 2% auto;
   }
 }
 
 @media (min-width: 1200px) {
   .landing-page .hero .kd-arrow-2 {
     width: calc(144px + ((100vw - 1200px) / 2));
+  }
+  .landing-page .case-study {
+    background-position: bottom right;
   }
 }
 

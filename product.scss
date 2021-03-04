@@ -230,6 +230,25 @@ nav {
   }
 }
 
+.kd-client-list {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  > * {
+    object-fit: contain;
+    width: 20%;
+    max-height: 400px;
+  }
+}
+@media (max-width: 576px) {
+  .kd-client-list {
+    > * {
+      width: 50%;
+      max-height: 80px;
+    }
+  }
+}
+
 .flex-equal > * {
   flex: 1;
 }
@@ -253,16 +272,16 @@ nav {
 */
 .landing-page {
   .site-title,
-  .kd-work-link {
-    display: none;
-  }
+  // .kd-work-link {
+  //   display: none;
+  // }
 
   .hero {
     overflow-x: hidden;
     overflow-y: visible;
     display: grid;
     //  grid-auto-columns: auto;
-    grid-template-columns: 13vw 3vw 4vw 1vw 50vw 8vw 14vw 7vw;
+    grid-template-columns: 13vw 3vw 4vw 30vw 21vw 8vw 14vw 7vw;
     grid-template-rows: 7vh 14vh 4vh 7vh 14vh 7vh 8vh 7vh 1vh;
 
     .hero-title {
@@ -295,7 +314,7 @@ nav {
       grid-row: 7 / 9;
       width: 100%;
       margin-top: 20px;
-      margin-left: 3vw;
+      margin-left: 0vw;
     }
     .kd-arrow-2 {
       border-width: 0px 0 2px 2px;
@@ -329,43 +348,67 @@ nav {
 }
 
 .case-study {
+  min-height: 60vh;
   align-items: stretch;
-  > * {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-x: 50vw;
+  background-position-y: bottom;
+  .kd-container > div {
     width: 50%;
-    .study-image {
-      width: 100%;
-      object-fit: contain;
-      object-position: bottom right;
-    }
+  }
+  &.revup {
+    background-image: url("../assets/images/Kassem_Revup_Thumb.png");
+  }
+  &.founded {
+    background-image: url("../assets/images/Kassem_Founded_Thumb.png");
+  }
+  &.various {
+    background-image: url("../assets/images/Kassem_Various_Thumb.png");
   }
 }
 @media (max-width: 768px) {
-  .landing-page .hero {
-    .kd-arrow-2 {
-      width: calc(74px + 3rem);
+  .landing-page {
+    .hero {
+      .kd-arrow-2 {
+        width: calc(74px + 3rem);
+      }
     }
   }
 }
 @media (max-width: 576px) {
-  .landing-page .hero {
-    .hero-title {
-      grid-column: 2 / 8;
-      grid-row: 3 / 6;
+  .landing-page {
+    .hero {
+      .hero-title {
+        grid-column: 2 / 8;
+        grid-row: 3 / 6;
+      }
+      .kd-arrow-2 {
+        width: calc(102px + 1rem);
+      }
     }
-    .kd-arrow-2 {
-      width: calc(102px + 1rem);
-    }
-  }
-  .case-study {
-    > * {
+    .kd-container > div {
       width: 100%;
+    }
+    .case-study {
+      background-position: bottom right;
+      padding-bottom: 80vw;
+      text-align: center;
+      span {
+        margin: 2% auto;
+      }
     }
   }
 }
 @media (min-width: 1200px) {
-  .landing-page .hero {
-    .kd-arrow-2 {
-      width: calc(144px + ((100vw - 1200px) / 2));
+  .landing-page {
+    .hero {
+      .kd-arrow-2 {
+        width: calc(144px + ((100vw - 1200px) / 2));
+      }
+    }
+    .case-study {
+      background-position: bottom right;
     }
   }
 }
