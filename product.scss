@@ -352,8 +352,7 @@ nav {
   align-items: stretch;
   background-size: contain;
   background-repeat: no-repeat;
-  background-position-x: 50vw;
-  background-position-y: bottom;
+  background-position: bottom right;
   .kd-container > div {
     width: 50%;
   }
@@ -373,6 +372,10 @@ nav {
       .kd-arrow-2 {
         width: calc(74px + 3rem);
       }
+    }
+    .case-study {
+      background-position-x: 50vw;
+      background-position-y: bottom;
     }
   }
 }
@@ -398,6 +401,10 @@ nav {
         margin: 2% auto;
       }
     }
+  }
+}
+@media (max-width: 768px) {
+  .landing-page {
   }
 }
 @media (min-width: 1200px) {

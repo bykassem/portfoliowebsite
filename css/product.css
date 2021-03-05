@@ -441,8 +441,7 @@ nav {
           align-items: stretch;
   background-size: contain;
   background-repeat: no-repeat;
-  background-position-x: 50vw;
-  background-position-y: bottom;
+  background-position: bottom right;
 }
 
 .case-study .kd-container > div {
@@ -464,6 +463,10 @@ nav {
 @media (max-width: 768px) {
   .landing-page .hero .kd-arrow-2 {
     width: calc(74px + 3rem);
+  }
+  .landing-page .case-study {
+    background-position-x: 50vw;
+    background-position-y: bottom;
   }
 }
 
