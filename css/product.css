@@ -175,6 +175,13 @@ nav {
 /*
 *
 */
+.kd-social-link svg {
+  width: 40px;
+  height: auto;
+  -webkit-transition: all ease-in 0.3s;
+  transition: all ease-in 0.3s;
+}
+
 .kd-tag-group {
   margin-top: 32px;
 }
@@ -507,6 +514,24 @@ nav {
 /**
 * About page
 */
+.about-page .kd-profile-photo {
+  width: 75%;
+  margin-left: 25%;
+}
+
+.about-page .kd-tag-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.about-page .kd-shape-cube {
+  max-width: 25vw;
+  margin-top: -180px;
+}
+
 .about-head {
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -521,6 +546,41 @@ nav {
 .about-head .head-separator {
   width: 100%;
   border-top: 2px solid #ecafdf;
+}
+
+@media (min-width: 576px) {
+  .about-page .kd-profile-photo {
+    width: 50%;
+    margin-left: 50%;
+  }
+  .about-page .kd-tag-group {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .about-page .kd-shape-cube {
+    max-width: 25vw;
+    margin-top: -180px;
+  }
+}
+
+@media (min-width: 992px) {
+  .about-page .kd-profile-photo {
+    width: 100%;
+    margin-left: 0%;
+  }
+  .about-page .kd-tag-group {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .about-page .kd-shape-cube {
+    margin-top: 0;
+  }
 }
 
 .skill-list li {
@@ -544,6 +604,7 @@ nav {
 
 .software-list ul {
   width: 50%;
+  margin-bottom: 0px;
 }
 
 .software-list ul li {

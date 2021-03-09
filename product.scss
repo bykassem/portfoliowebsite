@@ -159,6 +159,13 @@ nav {
 /*
 *
 */
+.kd-social-link {
+  svg {
+    width: 40px;
+    height: auto;
+    transition: all ease-in 0.3s;
+  }
+}
 .kd-tag-group {
   margin-top: 32px;
 }
@@ -422,7 +429,20 @@ nav {
 /**
 * About page
 */
-
+.about-page {
+  .kd-profile-photo {
+    width: 75%;
+    margin-left: 25%;
+  }
+  .kd-tag-group {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .kd-shape-cube {
+    max-width: 25vw;
+    margin-top: -180px;
+  }
+}
 .about-head {
   align-items: center;
   .head-shape {
@@ -432,6 +452,38 @@ nav {
   .head-separator {
     width: 100%;
     border-top: 2px solid #ecafdf;
+  }
+}
+
+@media (min-width: 576px) {
+  .about-page {
+    .kd-profile-photo {
+      width: 50%;
+      margin-left: 50%;
+    }
+    .kd-tag-group {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .kd-shape-cube {
+      max-width: 25vw;
+      margin-top: -180px;
+    }
+  }
+}
+@media (min-width: 992px) {
+  .about-page {
+    .kd-profile-photo {
+      width: 100%;
+      margin-left: 0%;
+    }
+    .kd-tag-group {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .kd-shape-cube {
+      margin-top: 0;
+    }
   }
 }
 .skill-list {
@@ -451,6 +503,7 @@ nav {
 .software-list {
   ul {
     width: 50%;
+    margin-bottom: 0px;
     li {
       display: flex;
       align-items: center;
