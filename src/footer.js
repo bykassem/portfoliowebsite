@@ -3,7 +3,7 @@ const footerNav = (
                 <div className="kd-content d-sm-flex justify-content-between py-3">
                         <div className="">
                                 <small className="d-block mb-3 text-muted">
-                                        &copy; 2021 Kassem Desing inc. All Rights Reserved
+                                        &copy; 2021 Kassem Design inc. All Rights Reserved
                                 </small>
                         </div>
                         <div className="">
