@@ -10,7 +10,7 @@ var footerNav = React.createElement(
                         React.createElement(
                                 "small",
                                 { className: "d-block mb-3 text-muted" },
-                                "\xA9 2021 Kassem Desing inc. All Rights Reserved"
+                                "\xA9 2021 Kassem Design inc. All Rights Reserved"
                         )
                 ),
                 React.createElement(
